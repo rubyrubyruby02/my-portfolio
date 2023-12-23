@@ -13,7 +13,7 @@ export default function Skills(){
                         Skills & Technologies
                     </h1>
                     <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-                        The journey started with HTML & CSS but soon moved onto having a data focus as I used SQL and PowerBi in my last role. I then went on to learn JavaScript and React during my Software Bootcamp. 
+                        The journey started with HTML & CSS but moved onto having a data focus as I used SQL and PowerBi in my last job. I have also taught SQL and Data courses with CodeFirstGirls. I then went on to learn JavaScript and React during my Software Bootcamp with Northcoders. 
                     </p>
                 </div>
                 <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
