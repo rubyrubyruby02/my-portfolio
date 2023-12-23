@@ -1,11 +1,11 @@
 export const projects = [
   {
     title: "Northcoder's News",
-    subtitle: "PERN Individual Project",
+    subtitle: "PERN Stack",
     description:
-      "News site where users can up-vote, comment and read articles.",
+      "An individual project completed on the Northcoder's bootcamp. This is a news site where users can up-vote, comment and read articles.",
     image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://northcoders-news-by-ruby.netlify.app/",
   },
   {
     title: "Botani Buddies",
@@ -13,7 +13,7 @@ export const projects = [
     description:
       "Mobile app for plants that recommends watering periods and uses image identification to name plants. ",
     image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/rubyrubyruby02/BotaniBuddy-FE",
   },
 ];
 
@@ -37,7 +37,11 @@ export const testimonials = [
 export const skills = [
   "JavaScript",
   "React",
-  "Node",
+  "Node.JS",
+  "Express",
   "SQL",
+  "PowerBi",
+  "HTML",
+  "CSS",
   "Bootstrap",
 ];
