@@ -11,7 +11,7 @@ export default function Projects(){
                     <CodeIcon className="mx-auto inline-block w-10 mb-4"/>
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-text-white">Apps I've built</h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        Here are few projects I've worked on and the languages I've used. 
+                        Hover over each tile to find out more or click to view individual projects.
                     </p>
                 </div>
                 <div className="flex flex-wrap -m-4">
