@@ -29,9 +29,13 @@ export default function Jobs(){
                                 <h1 className="title-font text-lg font-medium text-white mb-3">
                                     {job.title}
                                 </h1>
-                                <p className="leading-relaxed">
-                                    {job.description}
-                                </p>
+
+                                <ul className="list-disc text-white mb-4">
+                                    {job.description.map((point, index) => (
+                                    <li key={index}>{point}</li>
+                                    ))}
+                                </ul>
+                                    
                             </div>
                             </div>
                         </div>
