@@ -14,15 +14,7 @@ export const projects = [
       "Mobile app for plants that recommends watering periods and uses image identification to name plants. ",
     image: "./project-2.gif",
     link: "https://github.com/rubyrubyruby02/BotaniBuddy-FE",
-  },
-  {
-    title: "Forms Practice",
-    subtitle: "Individual Project",
-    description:
-      "TBC",
-    image: "./project-2.gif",
-    link: "https://github.com/rubyrubyruby02/BotaniBuddy-FE",
-  },
+  }
 ];
 
 export const jobs = [
