@@ -10,6 +10,7 @@ export default function Jobs(){
                 <div className=" flex flex-col w-full mb-20">
                         <CodeIcon className="mx-auto inline-block w-10 mb-4"/>
                         <h1 className="sm:text-4xl text-3xl font-medium title-font mb-text-white">Previous Jobs</h1>
+                        <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-xl mt-4">From teaching to IT, I'm a career switcher who specialises in IT project management</p>
                 </div>
                 <div className="flex flex-wrap -m-4">
                     {jobs.map((job)=>(

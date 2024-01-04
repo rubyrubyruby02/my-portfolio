@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "PERN Stack",
     description:
       "An individual project completed on the Northcoder's bootcamp. This is a news site where users can up-vote, comment and read articles.",
-    image: "public\northcoders-news.mp4",
+    image: "./assets/northcoders-news.mp4",
     link: "https://northcoders-news-by-ruby.netlify.app/",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "MERN Group Project",
     description:
       "Mobile app for plants that recommends watering periods and uses image identification to name plants. ",
-    image: "./project-2.gif",
+    image: "./assets/NorthcodersProjectfullyStacked.mp4",
     link: "https://github.com/rubyrubyruby02/BotaniBuddy-FE",
   }
 ];
