@@ -9,7 +9,7 @@ export default function About(){
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                 <h1 className="title-font sm:text-4xl text-4xl mb-4 font-medium text-white">Hi, I'm Ruby</h1>
                 <h2 className="mb-8 leading-relaxed text-3xl">
-                    I'm an IT manager, coder and travel-lover. I like blue cheese, brownies, last-minute weekend trip and a bit of running.
+                    I'm an IT manager, coder and travel-lover. I like blue cheese, brownies, last-minute weekend trips and a bit of running.
                 </h2>
             
             <div className="flex justify-center">
