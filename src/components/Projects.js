@@ -1,5 +1,4 @@
 import React from "react";
-//import {CodeIcon} from "@heroicons/react/solid";
 import { projects } from "../data";
 
 
@@ -20,39 +19,44 @@ export default function Projects(){
             <div className="container px-5 py-10 mx-auto text-center lg:px-40">
                 <div className=" flex flex-col w-full mb-20">
                     {buildingIcon()}
-                    <h2 className="sm:text-4xl text-3xl font-medium title-font mb-text-white">Apps I've built</h2>
+                    <h2 className="sm:text-4xl text-3xl font-medium title-font mb-text-white">Projects</h2>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-xl mt-4">
                         Hover over each tile to find out more or click to view individual projects.
                     </p>
                 </div>
+
                 <div className="flex flex-wrap -m-4">
                     {projects.map((project)=> (
+
+                        <div key={project.image}>
                         <a 
                         href={project.link}
-                        key = {project.image}
-                        className="sm:w-1/2 w-100 p-4">
+                        className="sm:w-1/2 p-4">
+
                             <div className="flex relative">
-                                <video playsInline autoPlay muted loop
+
+                                <video autoPlay muted loop
                                 alt="video of northcoder's new website"
-                                className="absolute inset-0 w-full h-full object-center"
-                                >
+                                className="relative w-full h-full">
                                     <source 
                                     src={project.image} type="video/mp4"></source>
                                 </video>
 
-                            <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                                    {project.subtitle}
-                                </h2>
-                                <h1 className="title-font text-lg font-medium text-white mb-3">
+                            <div className="overlay absolute inset-0 flex flex-col items-center justify-center text-center opacity-0 hover:opacity-100 bg-black">                            >
+                                <h2 className="title-font font-medium text-white text-3xl mb-4">
                                     {project.title}
-                                </h1>
-                                <p className="leading-relaxed">
+                                </h2>
+                                <p className="leading-relaxed text-3xl mb-4">
                                     {project.description}
                                 </p>
+                                <h2 className="tracking-widest text-lg title-font font-medium text-green-400 mt-4">
+                                    {project.tech}
+                                </h2>
+
                             </div>
                             </div>
                         </a>
+                        </div>
                     ))}
                 </div>
             </div>

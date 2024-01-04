@@ -14,11 +14,11 @@ export default function About(){
             
             <div className="flex justify-center">
                 <a href="https://www.linkedin.com/in/ruby-riley02/"
-                className="inline-flex text-gray-400 bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg w-32 mr-4">
+                className="inline-flex bg-white border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 hover:rounded text-lg w-32 mr-8">
                     <img src="../../assets/linkedin.png" alt="linkedIn"/>
                 </a>
-                <a href="https://www.linkedin.com/in/ruby-riley02/"
-                className="inline-flex text-gray-400 bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg w-32">
+                <a href="https://github.com/rubyrubyruby02"
+                className="inline-flex bg-white border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 hover:rounded text-lg w-32">
                     <img src="../../assets/githubLogo.png" alt="github"/>
                 </a>
             </div>

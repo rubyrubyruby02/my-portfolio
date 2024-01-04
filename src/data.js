@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "Northcoder's News",
-    subtitle: "PERN Stack",
+    tech: "PERN Stack",
     description:
       "An individual project completed on the Northcoder's bootcamp. This is a news site where users can up-vote, comment and read articles.",
     image: "./assets/northcoders-news.mp4",
@@ -9,9 +9,9 @@ export const projects = [
   },
   {
     title: "Botani Buddies",
-    subtitle: "MERN Group Project",
+    tech: "MERN Stack",
     description:
-      "Mobile app for plants that recommends watering periods and uses image identification to name plants. ",
+      "A group project creating a mobile app for plants that recommends watering periods and uses image identification to name plants. ",
     image: "./assets/NorthcodersProjectfullyStacked.mp4",
     link: "https://github.com/rubyrubyruby02/BotaniBuddy-FE",
   }
