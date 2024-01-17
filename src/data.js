@@ -28,7 +28,7 @@ export const jobs = [
     title: "SQL & Data Instructor",
     employeer: "CodeFirstGirls",
     description: ["Led sessions with over 30 students", "Collaborated with other tutors to teach course content", "Gave feedback on student final projects"],
-    image: "./JobPics/CFGlogo.png",
+    image: "./JobPics/Code-first-girls-logo.jpg",
   },
   {
     title: "IT Graduate",
@@ -40,7 +40,7 @@ export const jobs = [
     title: "Tuition Center Manager",
     employeer: "Explore Learning",
     description: ["Responsible for a tema of 15 tutors", "Increased learner numbers from 180 children to 250 children post first lockdown"],
-    image: "./JobPics/ExploreLearning.png",
+    image: "./JobPics/EL-Logo-white.png",
   },
 
 

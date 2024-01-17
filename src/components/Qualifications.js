@@ -1,12 +1,14 @@
 import React from "react";
+import { AcademicCapIcon } from "@heroicons/react/solid";
 
 export default function Qualifications (){
 
     return(
 
-        <section id="qualifications" className="text-gray-400 bg-gray-900 body-font">
+        <section id="qualifications" className="text-gray-400 bg-gray-900 body-font mb-8">
 
             <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+            <AcademicCapIcon className="mx-auto inline-block w-10 mb-4" />
                 <h2 className="sm:text-4xl text-3xl font-medium title-font mb-text-white">
                     Qualifications
                 </h2>
