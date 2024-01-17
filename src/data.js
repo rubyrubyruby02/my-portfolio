@@ -53,9 +53,8 @@ export const skills = [
   "Node.JS",
   "Express",
   "SQL",
-  "PowerBi",
-  "HTML",
-  "CSS",
-  "Bootstrap",
+  "Power BI",
+  "HTML5",
+  "CSS (including Bootstrap)",
 ];
 

@@ -17,7 +17,7 @@ export default function Projects(){
     return(
         <section id="projects" className="text-gray-400 bg-gray-900 body-font">
             <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-                <div className=" flex flex-col w-full mb-20">
+                <div className=" flex flex-col w-full mb-4">
                     {buildingIcon()}
                     <h2 className="sm:text-4xl text-3xl font-medium title-font mb-text-white">Projects</h2>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-xl mt-4">
@@ -34,7 +34,6 @@ export default function Projects(){
                         className="sm:w-1/2 p-4">
 
                             <div className="flex relative">
-
                                 <video autoPlay muted loop
                                 alt="video of northcoder's new website"
                                 className="relative w-full h-full">
@@ -42,7 +41,7 @@ export default function Projects(){
                                     src={project.image} type="video/mp4"></source>
                                 </video>
 
-                            <div className="overlay absolute inset-0 flex flex-col items-center justify-center text-center opacity-0 hover:opacity-100 bg-black">                            >
+                            <div className="overlay absolute inset-0 flex flex-col items-center justify-center text-center opacity-0 hover:opacity-100 bg-black">                            
                                 <h2 className="title-font font-medium text-white text-3xl mb-4">
                                     {project.title}
                                 </h2>
