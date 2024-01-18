@@ -18,16 +18,16 @@ export default function Qualifications (){
             </div>
 
             <div className="flex flex-wrap -m-4 justify-center items-center mx-3">
-                <a href="https://www.credly.com/badges/8cd9849a-24af-4537-b48a-4879440b7248/public_url">     
-                <img src="../assets/aws-certified-cloud-practitioner.png" alt="AWS Cloud practitioner badge" className="w-32 h-32" />     
+                <a href="https://www.credly.com/badges/8cd9849a-24af-4537-b48a-4879440b7248/public_url" >     
+                <img src="../assets/aws-certified-cloud-practitioner.png" alt="AWS Cloud practitioner badge" className="w-40 h-40" />     
                 </a>
 
-                <a href="https://www.apm.org.uk/qualifications-and-training/project-management-qualification/">
-                    <img src="../assets/PMQ-badge.png" alt="Project Management Qualification issued by APM" className="w-32 h-32" />
+                <a href="https://www.apm.org.uk/qualifications-and-training/project-management-qualification/" className="mx-5">
+                    <img src="../assets/PMQ-badge.png" alt="Project Management Qualification issued by APM" className="w-40 h-40" />
                 </a>
 
                 <a href="https://www.axelos.com/certifications/itil-service-management/itil-4-foundation">
-                    <img src="../assets/ITIL4.jpg" alt="ITIL Foundation" className="w-32 h-32" />
+                    <img src="../assets/ITIL4.jpg" alt="ITIL Foundation" className="w-40 h-40 ml-2" />
                 </a>
             </div>
 
